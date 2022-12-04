@@ -1,0 +1,2 @@
+/*! For license information please see desktop-logo.219fb9c75da758ac7388.js.LICENSE.txt */
+"use strict";(self["__LOADABLE_LOADED_CHUNKS__"]=self["__LOADABLE_LOADED_CHUNKS__"]||[]).push([[897],{89834:function(e,t,n){n.d(t,{T:function(){return a}});var r=n(15691),_="index-root-Jtxv7",a=r.memo((function(e){var t=e.href,n=e.onClick,a=e.text,c=e.title;return t?r.createElement("a",{className:_,href:t,title:c,onClick:n}):r.createElement("span",{className:_},a)}))}}]);

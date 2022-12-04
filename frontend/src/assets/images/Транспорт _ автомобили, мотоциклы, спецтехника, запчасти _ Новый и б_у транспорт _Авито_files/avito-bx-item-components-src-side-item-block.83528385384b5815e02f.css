@@ -1,0 +1,223 @@
+/* stylelint-disable no-descending-specificity */
+.styles-root-jS_nL {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.styles-link-ZJx1a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.styles-image-OkGm3 {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    width: 100px;
+    height: 75px;
+    margin-right: 12px;
+    background-image: url(/dstatic/build/assets/../assets/59030f0655a1155d6fa3.svg);
+    background-size: cover;
+    outline: 1px solid rgba(0, 0, 0, .08);
+    outline-offset: -1px;
+}
+
+.styles-imageAspectRatio-4-3-Aa3Qo {
+    height: 75px;
+}
+
+.styles-imageAspectRatio-3-2-ZHVti {
+    height: 66.66px;
+}
+
+.styles-imageAspectRatio-1-1-Vh7Mg {
+    height: 100px;
+}
+
+.styles-imageAspectRatio-4-35-_EjsO {
+    height: 87.5px;
+}
+
+.styles-image-OkGm3 > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+.styles-inactive-wOPVn .styles-image-OkGm3 {
+    opacity: .5;
+}
+
+.styles-description-lZcNM {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    width: 188px;
+}
+
+.styles-title-LQQXr {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    color: #009CF0;
+    padding-right: 24px;
+}
+
+.styles-title-LQQXr,
+.styles-price-_HEiI,
+.styles-address-aoOQV,
+.styles-date-hs6jp {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.styles-linkSelected-M6GiV .styles-title-LQQXr,
+.styles-link-ZJx1a:hover .styles-title-LQQXr {
+    color: #FF6163;
+}
+
+.styles-price-_HEiI,
+.styles-address-aoOQV,
+.styles-date-hs6jp,
+.styles-status-_nTy0,
+.styles-stats-YnUKP {
+    margin-top: 6px;
+}
+
+.styles-status-_nTy0,
+.styles-stats-YnUKP,
+.styles-statsBlock-t1HKS {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.styles-statsBlock-t1HKS + .styles-statsBlock-t1HKS {
+    margin-left: 8px;
+}
+
+.styles-icon-IS5YZ {
+    width: 20px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .2;
+    margin-right: 2px;
+}
+
+.styles-iconViews-pxx8f {
+    background-image: url(/dstatic/build/assets/../assets/df7f1a23e975ae48bb55.svg);
+}
+
+.styles-iconFavorites-wwIfj {
+    background-image: url(/dstatic/build/assets/../assets/fa59fd282725c19bcccc.svg);
+}
+
+.styles-black-JI2kZ {
+    color: #000000;
+}
+
+.styles-noaccent-_6r_y {
+    color: #8F8F8F;
+}
+
+.styles-action-_kewM {
+    color: #0091d9;
+    text-decoration: none;
+}
+
+.styles-action-_kewM:hover {
+    color: #FF6163;
+}
+
+.styles-favorite-U26lK {
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: auto;
+    right: -3px;
+    top: -5px;
+}
+
+.styles-favorite-U26lK > span {
+    display: none;
+}
+
+.styles-favorite-U26lK::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-image: url(/dstatic/build/assets/../assets/ba7996019ba189587780.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    -webkit-transition: all .3s cubic-bezier(.5, 0, .5, 3);
+    transition: all .3s cubic-bezier(.5, 0, .5, 3);
+    -webkit-transform: scale(.8, .8);
+            transform: scale(.8, .8);
+    opacity: 1;
+}
+
+.styles-favorite_added-sJXPM::before {
+    background-image: url(/dstatic/build/assets/../assets/2060932f700c83f842e3.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    opacity: 1;
+}
+
+.styles-favorite-U26lK:hover::before {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+}
+
+.styles-root-jS_nL:hover .styles-favorite-U26lK::before {
+    opacity: 1;
+}
+
+.styles-root-uUJWn {
+    position: relative;
+    margin-bottom: 30px;
+    width: 300px;
+    background-color: #ffffff;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.styles-title-BO9Ik {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.styles-title-BO9Ik:first-child {
+    margin: 6px 0 23px;
+}
+
+.styles-items-Wl_IV > :not(:last-child) {
+    margin-bottom: 20px;
+}
+
+a.styles-button-xoxb8 {
+    margin-top: 20px;
+}
+
+a.styles-button-xoxb8:hover {
+    color: #000000;
+}
+

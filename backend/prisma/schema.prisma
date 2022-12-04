@@ -1,0 +1,80 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model role {
+  id            Int         @id @default(autoincrement())
+  tag           String      @unique
+  description   String?
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  deletedAt     DateTime?
+
+  Users         user[]
+  Permissions   permission[]
+}
+
+model permission {
+  id            Int         @id @default(autoincrement())
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  deletedAt     DateTime?
+  tag           String      @unique
+  description   String?
+
+  Role          role[]
+}
+
+model user {
+  user_id       Int                      @id @default(autoincrement())
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+  deletedAt     DateTime?
+  password      String                  @db.VarChar(255)
+  roleId        Int
+  archived      Boolean     @default(false)
+
+  full_name  String   @db.VarChar(255)
+  phone       String   @db.VarChar(255) @unique
+
+  Role          role        @relation(fields: [roleId], references: [id])
+  Files         uploaded_file[]
+}
+
+model uploaded_file {
+  id              Int           @id @default(autoincrement())
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+  deletedAt       DateTime?
+  fieldname       String
+  originalname    String
+  encoding        String
+  mimetype        String
+  destination     String
+  filename        String        @unique
+  nameMini        String        @unique @default("")
+  path            String
+  size            Int
+  tag             String?        @default("file")
+  entity          String?
+  entity_id       Int?
+  user_id         Int
+  user            user     @relation(fields: [user_id], references: [user_id], onDelete: Cascade, map: "fk_user_id_4")
+
+  @@index([user_id], map: "idx_user_id_4")
+}
+
+model log {
+  id              Int         @id @default(autoincrement())
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+  entity          String
+  action          String
+  entity_id       Int
+  data            String @db.Text
+}

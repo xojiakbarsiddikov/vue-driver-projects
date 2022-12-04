@@ -1,0 +1,21 @@
+.index-root-S8zZq {
+    display: grid;
+    gap: 34px;
+    grid-template-columns: 1fr 390px;
+    margin: 48px 0;
+}
+
+.index-content-SMNCb {
+    padding-top: 80px;
+}
+
+.index-cover-_ifrJ {
+    min-height: 480px;
+    background: url(/dstatic/build/assets/../assets/d4773b94bef4cb44645b.svg) no-repeat top center;
+    background-size: contain;
+}
+
+.index-text-YNnMo {
+    margin: 8px 0 16px;
+}
+

@@ -1,0 +1,224 @@
+{
+  "login": {
+    "login_form": {
+      "title": "Авторизацийа",
+      "username_placeholder": "Фойданалувчи",
+      "password_placeholder": "Парол",
+      "forgot_password": "Парол унутдингизми?",
+      "login_btn_text": "Кириш"
+    }
+  },
+  "crud_table": {
+    "btn_add": "Йаратиш",
+    "btn_remove": "Очириш",
+    "export_to_csv": "CSVга экспорт килиш",
+    "search_input_placeholder": "Излаш...",
+    "pagination": {
+      "from": "дан",
+      "to": "гача",
+      "total": "жами"
+    },
+    "confirm": "Тасдикланг",
+    "confirm_yes": "Тасдиклаш",
+    "confirm_no": "Бекор килиш",
+    "id_filter_label": "ID",
+    "id_filter_placeholder": "ID боича излаш",
+    "form_input_error": "Нотогри маьлумотлар киритилган"
+  },
+  "delete_selected": "Белгиланган каторларни очиришни тасдиклайсизми?",
+  "delete_selected_title": "Очиришни тасдикланг",
+  "selected_fields_removed": "Белгиланган каторларни очирилди",
+  "success": "Муффакийатли",
+  "created": "Йаратилди",
+  "updated": "Озгартирилди",
+  "deleted": "Очирилди",
+  "unknown_error": "Номалум хатолик",
+  "error": "Хатолик",
+  "error_occurred": "Хатолик йуз берди",
+  "save": "Саклаш",
+  "cancel": "Бекор килиш",
+  "role": {
+    "titles": "Роллар",
+    "title": "Рол",
+    "name": "Рол номи",
+    "description_label": "Рол изохм",
+    "form_heading": "Рол маьлумотлари"
+  },
+  "calculationService": {
+    "titles": "Хисоблаш хизматлари",
+    "title": "Хисоблаш хизмати",
+    "name": "Хисоблаш хизмати номи",
+    "form_heading": "Хисоблаш хизмати маьлумотлари",
+    "fixedPrice": "Белгиланган нархи"
+  },
+  "directions": {
+    "titles": "Йоналишлар",
+    "title": "Йоналиш",
+    "name": "Йоналиш номи",
+    "form_heading": "Йоналиш маьлумотлари",
+    "directions_updated": "Йоналиш озгартирилди",
+    "direction_created": "Йоналиш йаратилди"
+  },
+  "gasEquipment": {
+    "titles": "Газ анжомлари",
+    "title": "Газ курилмаси",
+    "name": "Курилма номи",
+    "form_heading": "Курилма маьлумотлари",
+    "directions_updated": "Курилма озгартирилди",
+    "direction_created": "Курилма йаратилди",
+    "consumption": "Газ курилмаси сарфи"
+  },
+  "ministry": {
+    "titles": "Вазирликлар",
+    "title": "Вазирлик",
+    "name": "Вазирлик номи",
+    "form_heading": "Вазирлик маьлумотлари"
+  },
+  "egmJoinPoint": {
+    "title": "ЭГХУ нуктаси",
+    "titles": "ЭГХУ нукталари",
+    "name": "Хисоблаш хизмати номи",
+    "form_heading": "Хисоблаш хизмати маьлумотлари"
+  },
+  "grpTypes": {
+    "titles": "ГРП турлари",
+    "title": "ГРП тури",
+    "name": "ГРП тури номи",
+    "form_heading": "ГРП тури маьлумотлари"
+  },
+  "metalType": {
+    "titles": "Полат турлари",
+    "title": "Полат турли",
+    "name": "Полат турлаи номи",
+    "form_heading": "Полат турли маьлумотлари"
+  },
+  "rank": {
+    "titles": "Лавозимлар",
+    "title": "Лавозим",
+    "name": "Лавозимлар номи",
+    "form_heading": "Лавозим маьлумотлари"
+  },
+  "sealInstallationPoints": {
+    "titles": "Тамга орнатиш нукталари",
+    "title": "Тамга орнатиш нукталари",
+    "name": "Тамга номи",
+    "form_heading": "Тамга орнатиш нуктаси маьлумотлари"
+  },
+  "section": {
+    "titles": "Болимлар",
+    "title": "Болим",
+    "name": "Болимлар номи",
+    "form_heading": "Болим маьлумотлари"
+  },
+  "usagePurpose": {
+    "titles": "Фойдаланиш максадлари",
+    "title": "Фойдаланиш максади",
+    "name": "Фойдаланиш максади номи",
+    "form_heading": "Фойдаланиш максади маьлумотлари"
+  },
+  "locale": {
+    "startsWith": "дан бошланади",
+    "contains": "Таркибида",
+    "notContains": "Оз ичига олмайди",
+    "endsWith": "Билан тугайди",
+    "equals": "Тенг",
+    "notEquals": "Тенг эмас",
+    "noFilter": "Филтр йок",
+    "lt": "Дан кичик",
+    "lte": "Дан кичик йоки тенг",
+    "gt": "Дан каттарок",
+    "gte": "Дан катта йоки тенг",
+    "dateIs": "Сана",
+    "dateIsNot": "Сана эмас",
+    "dateBefore": "Сана олдин",
+    "dateAfter": "Сана кейин",
+    "clear": "Тозалаш",
+    "apply": "Излаш",
+    "matchAll": "Хаммасини мослаш",
+    "matchAny": "Хар кандайи мос",
+    "addRule": "Коида кошиш",
+    "removeRule": "Коидани олиб ташлаш",
+    "accept": "Ха",
+    "reject": "Йок",
+    "choose": "Танланг",
+    "upload": "Йуклаш",
+    "cancel": "Беко килиш",
+    "dayNames": [
+      "Йакшанба",
+      "Душанба",
+      "Сешанба",
+      "Чоршанба",
+      "Пайшанба",
+      "Жума",
+      "Шанба"
+    ],
+    "dayNamesShort": [
+      "Йак",
+      "Душ",
+      "Сеш",
+      "Чор",
+      "Пай",
+      "Жум",
+      "Шан"
+    ],
+    "dayNamesMin": [
+      "Йа",
+      "Ду",
+      "Се",
+      "Чо",
+      "Па",
+      "Жу",
+      "Ша"
+    ],
+    "monthNames": {
+      "January": "Yanvar",
+      "February":"Fevral",
+      "March":"Mart",
+      "April":"Aprel",
+      "May":"May",
+      "June":"Iyun",
+      "July":"Iyul",
+      "August":"Avgust",
+      "September":"Sentyabr",
+      "October":"Oktyabr",
+      "November":"Noyabr",
+      "December":"Dekabr"
+    },
+    "monthNamesShort": [
+      "Йан",
+      "Фев",
+      "Мар",
+      "Апр",
+      "Май",
+      "Июн",
+      "Июл",
+      "Август",
+      "Сен",
+      "Окт",
+      "Ной",
+      "Дек"
+    ],
+    "today": "Бугун",
+    "weekHeader": "Хаф",
+    "firstDayOfWeek": 1,
+    "dateFormat": "mm/dd/yy",
+    "weak": "Заиф",
+    "medium": "Орта",
+    "strong": "Кучли",
+    "passwordPrompt": "Парол киритинг",
+    "emptyFilterMessage": "Хеч кандай натижа топилмади",
+    "emptyMessage": "Мавжуд вариантлар йок"
+  },
+  "region": {
+    "titles": "Вилойатлар",
+    "title": "Вилойат",
+    "name": "Вилойат номи",
+    "form_heading": "Вилойат маьлумотлари"
+  },
+  "district": {
+    "titles": "Туманлар",
+    "title": "Туман",
+    "name": "Туман номи",
+    "form_heading": "Туман маьлумотлари"
+  }
+}

@@ -1,0 +1,143 @@
+.p-toast.p-toast-top-right {
+    z-index: 1000;
+    top: 7rem;
+}
+.true-icon {
+    color: #256029;
+}
+.false-icon {
+    color: #c63737;
+}
+.p-datatable {
+    .p-datatable-thead {
+        tr {
+            th {
+                padding: 10px 5px;
+            }
+        }
+    }
+}
+
+.disabled-p-input {
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    color: #495057;
+    background: #ffffff;
+    padding: 0.75rem 0.75rem;
+    border: 1px solid #ced4da;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    appearance: none;
+    border-radius: 6px;
+    cursor: not-allowed;
+}
+
+.float-r {
+    float: right;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+@keyframes p-progress-spinner-color {
+    100%,
+    0% {
+        stroke: #d62d20;
+    }
+    40% {
+        stroke: #0057e7;
+    }
+    66% {
+        stroke: #008744;
+    }
+    80%,
+    90% {
+        stroke: #ffa700;
+    }
+}
+
+.p-card {
+    .p-card-content {
+        padding-top: 10px;
+    }
+
+    .p-card-header:hover .actions {
+        opacity: 1
+    }
+}
+
+.actions {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    opacity: 0;
+    width: 100px;
+}
+
+.circle-btn {
+    cursor: pointer;
+    i {
+        color: #fff
+    }
+}
+
+.p-fileupload {
+    .p-fileupload-buttonbar {
+        padding: 10px;
+        span {
+            padding: 5px;
+            font-size: 12px;
+        }
+    }
+}
+
+.p-password {
+    .pi-eye, .pi-eye-slash {
+        cursor: pointer;
+    }
+}
+
+.field, img, .p-component {
+    max-width: 100%;
+    span.p-component {
+        width: 100%
+    }
+}
+
+.max-content {
+    min-width: max-content;
+}
+
+.w-100 {
+    width: 100% !important
+}
+
+
+@media screen and (max-width: 769px) {
+    .actions {
+        opacity: 1
+    }
+}
+
+.p-dialog {
+    max-width: 95%
+}
+
+.btn-w-32 {
+    width: 32px !important;
+    height: 32px !important;
+}
+
+.report {
+    .p-datatable .p-datatable-tbody > tr > td {
+        padding: 5px;
+    }
+
+    .p-hidden-space {
+        display: none
+    }
+}

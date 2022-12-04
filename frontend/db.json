@@ -1,0 +1,95 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "title": "andijon",
+      "img": "andijan.jpg",
+      "city": [
+        {
+          "id": 1,
+          "title": "andijon shahar"
+        },
+        {
+          "id": 2,
+          "title": "izboskan"
+        },
+        {
+          "id": 3,
+          "title": "asaka shahar"
+        },
+        {
+          "id": 4,
+          "title": "baliqchi"
+        },
+        {
+          "id": 5,
+          "title": "paxtaobod"
+        },
+        {
+          "id": 6,
+          "title": "jalaquduq"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "namangan",
+      "img": "namangan.jpg"
+    },
+    {
+      "id": 3,
+      "title": "fargona",
+      "img": "fargona.jpg"
+    },
+    {
+      "id": 4,
+      "title": "samarkand",
+      "img": "smarkand.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "toshkent",
+      "img": "hilton.jpg"
+    },
+    {
+      "id": 6,
+      "title": "buxoro",
+      "img": "buhoro.jpg"
+    },
+    {
+      "id": 7,
+      "title": "xiva",
+      "img": "xiva.jpg"
+    },
+    {
+      "id": 8,
+      "title": "jizzax",
+      "img": "jizzax.jpeg"
+    },
+    {
+      "id": 9,
+      "title": "sirdaryo",
+      "img": "sirdaryo.jpg"
+    },
+    {
+      "id": 10,
+      "title": "surxandaryo",
+      "img": "suhandaryo.jpg"
+    },
+    {
+      "id": 11,
+      "title": "xorezm",
+      "img": "xorazm.jpg"
+    },
+    {
+      "id": 12,
+      "title": "qashqadaryo",
+      "img": "qashqadaryo.jpg"
+    },
+    {
+      "id": 13,
+      "title": "qoraqalpog'iston",
+      "img": "qoraqalpagiston.jpg"
+    }
+  ]
+}

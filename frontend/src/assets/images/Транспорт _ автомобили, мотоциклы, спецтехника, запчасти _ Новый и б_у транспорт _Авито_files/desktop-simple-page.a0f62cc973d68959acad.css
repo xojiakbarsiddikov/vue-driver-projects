@@ -1,0 +1,102 @@
+.index-root-nb9Lx {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    margin: 20px auto 0;
+}
+
+.index-page_default-RyjXj {
+    width: 964px;
+    padding: 0 18px;
+}
+
+.index-is_fullscreen-WTfcI {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.index-page_narrowLayout-_fUWS {
+    width: 100%;
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+@media screen and (min-width: 1334px) {
+    .index-page_default-RyjXj.index-responsive-yh9uW:not(.index-is_fullscreen-WTfcI) {
+        padding-left: 6px;
+        padding-right: 6px;
+        width: 1304px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .index-page_default-RyjXj.index-responsive-yh9uW:not(.index-is_fullscreen-WTfcI) {
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 1316px;
+    }
+}
+
+.index-page_profile-UDALb {
+    width: 978px;
+    margin: 40px auto 0;
+}
+
+@media screen and (min-width: 1366px) {
+    .index-page_profile-UDALb {
+        width: 1304px;
+    }
+
+    .index-page_narrowLayout-_fUWS {
+        max-width: 1256px;
+    }
+}
+
+.index-root-_jIU0 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px auto 0;
+    padding: 0 18px;
+    width: 964px;
+    height: 48px;
+}
+
+.index-root-_jIU0.index-narrowLayout-_yGv4 {
+    width: 100%;
+    max-width: 930px;
+    padding: 0;
+}
+
+@media screen and (min-width: 1334px) {
+    .index-root-_jIU0.index-responsive-EbUaJ {
+        padding: 0 6px;
+        width: 1304px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .index-root-_jIU0.index-responsive-EbUaJ {
+        padding: 0 16px;
+        width: 1316px;
+    }
+
+    .index-root-_jIU0.index-narrowLayout-_yGv4 {
+        max-width: 1256px;
+    }
+}
+
+.index-logo-Dr9wy {
+    padding: 9px 6px 0 0;
+}
+

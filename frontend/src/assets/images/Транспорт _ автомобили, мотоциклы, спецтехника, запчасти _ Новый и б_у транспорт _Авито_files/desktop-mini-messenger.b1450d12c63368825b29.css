@@ -1,0 +1,27 @@
+.index-layout-QB2UH {
+    position: fixed;
+    bottom: 0;
+    right: calc(50% - 870px); /* 50% - 482px (половина контента) - (ширина развернутого мини) - (отступ) */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    z-index: 2900;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+@media (max-width: 1780px) { /* ширина начиная с которой мини привязан к правому краю и едет на контент */
+    .index-layout-QB2UH {
+        right: 20px;
+    }
+}
+
+.index-wrapper-si9Y2 {
+    margin-bottom: 12px;
+}
+
